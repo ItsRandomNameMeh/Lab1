@@ -1,7 +1,6 @@
 import random
 import time
 
-
 massi = []
 h = 0
 def generate():#генерируем стартовый массив
@@ -52,7 +51,7 @@ def writefile():#Запись отсортированного массива в
     for i in massi:
         V.write(str(i)+"\n")
 
-print("Шейкерная сортировка")
+print("Шейкерная сортировка.")
 generate()
 readfile()
 print("Отсортированный массив: ")
